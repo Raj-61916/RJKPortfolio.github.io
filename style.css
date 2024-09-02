@@ -110,15 +110,15 @@ nav.sticky .menu-btn{
 }
 
 /* home section styling */
-.home{
+/* .home{
   height: 75vh;
   width: 100%;
   background: url("/Portfolio/Portfolio/Images/photo_2024-08-31_17-13-28-removebg-preview.png") no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: right;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
-}
+} */
 
 .home .home-content{
   width: 90%;
