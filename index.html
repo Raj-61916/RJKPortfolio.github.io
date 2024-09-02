@@ -16,7 +16,7 @@
       .home{
       height: 75vh;
       width: 100%;
-      background: url("/Images/photo_2024-08-31_17-13-28-removebg-preview.png") no-repeat;
+      background: url("Images/photo_2024-08-31_17-13-28-removebg-preview.png") no-repeat;
       /* background-size: cover; */
       background-position: right;
       /* background-attachment: fixed; */
@@ -25,6 +25,7 @@
     </style>
   </head>
   <body>
+    <div id="preloader"></div>
     <!-- Move to up button -->
     <div class="scroll-button">
       <a href="#home"><i class="fas fa-arrow-up"></i></a>
@@ -63,7 +64,7 @@
           <div class="text-four">From India</div>
         </div>
         <div class="button">
-          <button><a href="/Data/Mail.html">Hire Me</a></button>
+          <button><a href="Data/Mail.html">Hire Me</a></button>
         </div>
       </div>
     </section>
@@ -190,5 +191,12 @@
         >
       </div>
     </footer>
+
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      })
+    </script>
   </body>
 </html>
